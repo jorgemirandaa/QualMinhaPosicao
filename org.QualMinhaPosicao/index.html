@@ -48,8 +48,7 @@
 
 			<ul id="nav" class="nav">
 				<li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-				<li><a class="smoothscroll" href="#comprovante">Comprovante
-						Consulta</a></li>
+				<li><a class="smoothscroll" href="#comprovante">Comprovante Consulta</a></li>
 				<li><a class="smoothscroll" href="#sobre">Sobre</a></li>
 			</ul>
 			<!-- end #nav -->
@@ -60,44 +59,41 @@
 		<div class="row banner">
 			<div class="banner-text">
 				<h1 class="responsive-headline">Consultar Posição</h1>
-				<div class="row">
 
-					<div class="twelve columns">
-						<form action="input" method="get" id="QueryPosicao"
-							name="QueryPosicao">
-							<fieldset>
-								<div>
-									<label for="campoCpf">CPF <span class="required">*</span></label>
+				<div class="twelve columns">
+					<form method="post" id="QueryPosicao" name="QueryPosicao">
+						<fieldset>
+							<div>
+								<label for="cpf">Digite o CPF <span class="required">*</span></label>
 
-									<input type="text" maxlength="11" size="20" id="campoCpf"
-										name="cod_Cpf">
-								</div>
+								<input type="text" maxlength="11" size="20" id="num_cpf" name="cpf" required="required">
+								
+							</div>
 
-								<div>
-									<label for="campoMedico">Médico <span class="required">*</span></label>
+							<div>
+								<label for="campoMedico">Médico <span class="required">*</span></label>
 
-									<input type="text" maxlength="11" size="20" id="campoMedico"
-										name="cod_Medico">
-								</div>
+								<input type="text" maxlength="11" size="20" id="campoMedico" name="cod_Medico" required="required">
+								
+							</div>
 
-								<div>
-									<input type="submit" value="Enviar">
-								</div>
+							<div>
+								<input type="submit" value="Enviar">
+							</div>
 
-							</fieldset>
-						</form>
-					</div>
-
-					<ul class="social">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="#"><i class="fa fa-skype"></i></a></li>
-					</ul>
+						</fieldset>
+					</form>
 				</div>
+
+				<ul class="social">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="#"><i class="fa fa-skype"></i></a></li>
+				</ul>
 			</div>
 		</div>
 
@@ -112,69 +108,66 @@
 	<!-- Resume Section
    ================================================== -->
 	<section id="comprovante">
-		<body>
 
-			<!-- Header
+		<!-- Header
    ================================================== -->
-			<header id="home">
+		<header id="home">
 
-				<nav id="nav-wrap">
+			<nav id="nav-wrap">
 
-					<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show
-						navigation</a> <a class="mobile-btn" href="#" title="Hide navigation">Hide
-						navigation</a>
+				<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show
+					navigation</a> <a class="mobile-btn" href="#" title="Hide navigation">Hide
+					navigation</a>
 
-					<ul id="nav" class="nav">
-						<li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-						<li><a class="smoothscroll" href="#comprovante">Comprovante
-								Consulta</a></li>
-						<li><a class="smoothscroll" href="#sobre">Sobre</a></li>
-					</ul>
-					<!-- end #nav -->
+				<ul id="nav" class="nav">
+					<li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+					<li><a class="smoothscroll" href="#comprovante">Comprovante
+							Consulta</a></li>
+					<li><a class="smoothscroll" href="#sobre">Sobre</a></li>
+				</ul>
+				<!-- end #nav -->
 
-				</nav>
-				<!-- end #nav-wrap -->
+			</nav>
+			<!-- end #nav-wrap -->
 
-				<div class="row banner">
-					<div class="banner-text">
-						<h1 class="responsive-headline">Comprovante Consulta</h1>
+			<div class="row banner">
+				<div class="banner-text">
+					<h1 class="responsive-headline">Comprovante Consulta</h1>
 
-						<div class="twelve columns">
-							<form action="input" method="get" id="QueryComprovante"
-								name="QueryComprovante">
-								<fieldset>
-									<div>
-										<label for="campoRg">Digite o RG <span
-											class="required">*</span></label> <input type="text" maxlength="11"
-											size="20" id="campoRg" name="cod_Rg">
-									</div>
+					<div class="twelve columns">
+						<form action="input" method="get" id="QueryComprovante" name="QueryComprovante">
+							<fieldset>
+								<div>
+									<label for="campoRg">Digite o RG <span class="required">*</span></label>
+									<input type="text" maxlength="11" size="20" id="campoRg" name="cod_Rg" required="required">
+								</div>
 
-									<div>
-										<input type="submit" value="Consultar">
-									</div>
+								<div>
+									<input type="submit" value="Consultar">
+								</div>
 
-								</fieldset>
-						</div>
-
-						<ul class="social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							<li><a href="#"><i class="fa fa-skype"></i></a></li>
-						</ul>
+							</fieldset>
 					</div>
+
+					<ul class="social">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-skype"></i></a></li>
+					</ul>
 				</div>
+			</div>
 
-				<p class="scrolldown">
-					<a class="smoothscroll" href="#sobre"><i
-						class="icon-down-circle"></i></a>
-				</p>
+			<p class="scrolldown">
+				<a class="smoothscroll" href="#sobre"><i
+					class="icon-down-circle"></i></a>
+			</p>
 
-			</header>
-			<!-- Header End -->
+		</header>
+		<!-- Header End -->
 	</section>
 	<!-- Sessão Sobre
    ================================================== -->
@@ -214,13 +207,13 @@
 
 					</div>
 					<!-- DIV da coluna de contatos -->
-					
+
 					<!-- Um botão qualquer... Sem Uso! É so pra não esquecer como cria
 				  	<p>
 						<a href="#" class="button"><i class="fa fa-download"></i>Botão verdinho</a>
 					</p>
 					-->
-					
+
 				</div>
 				<!-- end row -->
 
