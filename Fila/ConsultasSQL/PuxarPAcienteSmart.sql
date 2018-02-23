@@ -1,0 +1,1 @@
+select * from dbo.PAC where PAC_REG = 37089

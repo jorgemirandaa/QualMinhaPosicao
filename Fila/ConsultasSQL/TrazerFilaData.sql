@@ -1,0 +1,1 @@
+select * from dbo.fle where FLE_PSV_COD = 14252 and 

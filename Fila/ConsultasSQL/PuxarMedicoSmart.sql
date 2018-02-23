@@ -1,0 +1,1 @@
+select * from PSV where PSV_TIPO = 'M' order by PSV_APEL asc;
